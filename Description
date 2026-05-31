@@ -1,0 +1,19 @@
+Package: AeroFleet
+Type: Package
+Title: Aircraft Route Profitability Simulator
+Version: 1.0.0
+Author: Mohib Usman
+Maintainer: Mohib Usman <m.usman2@student.uw.edu.pl>
+Description: Simulates the profitability of operating different aircraft types on routes from London Heathrow. Calculates per-flight and daily profit using real-world aircraft specifications, operating costs, ticket prices, and passenger load factors from official aviation sources.
+License: GPL-2
+Encoding: UTF-8
+Imports:
+    shiny,
+    shinydashboard,
+    ggplot2,
+    plotly,
+    DT,
+    scales,
+    leaflet,
+    png
+RoxygenNote: 7.3.3
